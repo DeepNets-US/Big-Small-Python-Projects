@@ -15,13 +15,10 @@ Welcome, Python adventurer! 🌟 Get ready to embark on a coding journey inspire
 
 ## 🚀 How to Use This Repository:
 
-1. **Quotes Folder 📜:**
-   - Find project-specific quotes in the "quotes" folder. Each quote is a snippet of wisdom, humor, or eureka moments tied to a specific project.
-
-2. **Project Code 🧑‍💻:**
+1. **Project Code 🧑‍💻:**
    - Dive into dedicated folders for each project. The code is your map to understanding the magic behind each Python feat. Experiment, modify, and make it your own!
 
-3. **Contributing 🤝:**
+2. **Contributing 🤝:**
    - Join the coding party! Contribute by adding new quotes, enhancing existing ones, or sharing your Python discoveries. Follow GitHub practices, and let the fun collaborations begin!
 
 ## 🌟 Getting Started:
