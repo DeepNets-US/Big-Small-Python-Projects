@@ -12,7 +12,7 @@ The Bitmap Message Generator takes a message of your choice and overlays it on t
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/your-username/bitmap-message-generator.git
+   git clone https://github.com/DeepNets-US/Big-Small-Python-Projects/tree/main/Bitmap%20Message
    ```
 
 2. **Run the Script:**
