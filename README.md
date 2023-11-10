@@ -10,7 +10,7 @@ Welcome, Python adventurer! 🌟 Get ready to embark on a coding journey inspire
 2. **Paradox Bitmap Message 🤯:**
    - Dive into the world of paradoxical messages encoded in bitmaps. Decode the mystery, and let the paradoxical awesomeness expand your Python horizons.
 
-3. **[Project Name] 🚀:**
+3. **Other Projects 🚀:**
    - More adventures await! Explore each project to level up your Python skills while enjoying the thrill of coding escapades.
 
 ## 🚀 How to Use This Repository:
