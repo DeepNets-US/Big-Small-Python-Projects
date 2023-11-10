@@ -1,27 +1,33 @@
-"In the intriguing world of 'Bagels,' a deductive logic game, you embark on a captivating mission to unravel the enigma of a secret n-digit number. Armed with your wits and deduction skills, you'll receive invaluable hints from the game in response to your every guess, which will set you on the path to solving the mystery.
+# Bagels: The Deductive Logic Adventure 🕵️‍♂️💼
 
-The clues you receive are the keys to your success. Let's explore them:
+Welcome to the intriguing world of 'Bagels,' a deductive logic game that challenges your wit and deduction skills. In this captivating mission, you'll embark on a quest to unravel the enigma of a secret n-digit number. Armed with deduction prowess, you'll receive invaluable hints from the game in response to every guess, guiding you on the path to solving the mystery.
 
-- "Pico": This clue is your guiding light when your guess contains a correct digit, but it's not in the right place. It's a subtle nudge in the right direction.
+## 🕵️‍♂️ Clues to Success:
 
-- "Fermi": The "Fermi" clue signifies an even greater achievement – it tells you that your guess contains a correct digit in precisely the right position. You're getting warmer, and you're on the right track.
+- **Pico:** A subtle nudge when your guess contains a correct digit, but it's not in the right place. It steers you in the right direction.
 
-- "Bagels": On the other hand, if the game offers the "Bagels" clue, it means your guess doesn't include any correct digits. You'll need to revise your strategy and rethink your approach.
+- **Fermi:** Signifying precision, this clue confirms a correct digit in the right position. You're getting warmer and on the right track.
 
-With these valuable clues at your disposal, you're ready to embark on your mission to unlock the secret number. However, time is of the essence, as you have a limited set of attempts. In 'Bagels,' you're granted a total of N tries to crack the elusive code and emerge victorious.
+- **Bagels:** A challenge to revise your strategy, this clue indicates your guess lacks any correct digits. Rethink your approach.
 
-But that's not all; 'Bagels' takes your experience further by offering a diverse array of difficulty levels to suit players of all skill levels. Choose your desired challenge and set the stage for your adventure:
+With these clues, you're set to unlock the secret number. Time is of the essence, with a limited set of attempts (N) to crack the elusive code and emerge victorious.
 
-1. Kid: This mode is the perfect starting point, designed for beginners and novices. Here, you'll decipher a two-digit number, providing a gentle introduction to the world of 'Bagels.'
+## 🌟 Diverse Difficulty Levels:
 
-2. Easy: For those seeking a balanced challenge, the "Easy" difficulty level presents you with the task of guessing a three-digit number. It's a great option to sharpen your skills.
+1. **Kid:** Perfect for beginners, decipher a two-digit number for a gentle introduction.
 
-3. Normal: Elevate the complexity with the "Normal" difficulty level, where you'll grapple with a four-digit number. It offers a moderate level of challenge, striking a balance between fun and brain-teasing.
+2. **Easy:** A balanced challenge, guess a three-digit number to sharpen your skills.
 
-4. Hard: The "Hard" mode takes the challenge to the next level. Here, you'll tackle a six-digit number, testing your deductive skills to their limits. It's the ideal choice for those who love a good puzzle.
+3. **Normal:** Elevate the complexity with a four-digit number, striking a moderate balance.
 
-5. Impossible: Only for the bravest and most daring players, the "Impossible" difficulty level sets an audacious task before you. Can you guess a ten-digit number? It's the ultimate test, pushing the boundaries of your logical prowess and providing an adrenaline-pumping experience.
+4. **Hard:** Take it to the next level with a six-digit number, testing your deductive skills.
 
-In 'Bagels,' there's a challenge for everyone, from the novice code-breaker to the seasoned puzzle enthusiast. No matter your skill level, you're in for an engaging and stimulating experience.
+5. **Impossible:** For the bravest, guess a ten-digit number in the ultimate test of logical prowess.
 
-So, put on your thinking cap and get ready for an exciting adventure in 'Bagels.' Uncover the secret numbers, crack the code, and immerse yourself in the world of deduction and mystery. Your quest begins now – good luck!"
+## 🚀 Your Adventure Awaits:
+
+- **For Everyone:** Whether a novice or seasoned puzzle enthusiast, 'Bagels' offers engaging and stimulating challenges for all.
+
+- **Put on Your Thinking Cap:** Dive into the world of deduction and mystery. Uncover secret numbers, crack the code, and immerse yourself in the ultimate quest.
+
+Your adventure in 'Bagels' begins now – good luck! 🚀🔍💡
