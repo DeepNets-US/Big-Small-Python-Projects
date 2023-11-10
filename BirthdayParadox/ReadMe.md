@@ -35,7 +35,7 @@ The Birthday Paradox is a captivating probability puzzle that reveals the surpri
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/big-small-python-projects.git
+   git clone https://github.com/DeepNets-US/Python-Projects/tree/main/BirthdayParadox
    ```
 
 2. Run the simulation:
