@@ -33,7 +33,7 @@ The Bitmap Message Generator takes a message of your choice and overlays it on t
 You can easily change the appearance by modifying the world bitmap text file. Feel free to create your own bitmap file and pass its path when prompted. Experiment with different messages and bitmaps to create visually stunning displays!
 
 ## Examples
-Check out the `examples` directory for some cool samples created by our community. Share your creations and tag us on social media!
+Check out the `bitmaps` directory for some cool samples created by our community. Share your creations and tag us on social media!
 
 ## Contributing
 We welcome contributions! Fork the repository, make your changes, and submit a pull request. Let's make the Bitmap Message Generator even more awesome together! 🚀
