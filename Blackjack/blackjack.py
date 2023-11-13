@@ -12,6 +12,15 @@ CLUBS = chr(9827)
 class Blackjack:
 
     def __init__(self, money: int) -> None:
+        """
+        Initialize the Blackjack game with the given initial amount of money.
+
+        Parameters:
+        - money (int): The initial amount of money for the player.
+
+        Returns:
+        None
+        """
 
         # Game Configs
         self.bet = 0
@@ -26,45 +35,101 @@ class Blackjack:
         self.dealer, self.dealer_hand = 0, []
 
         # Initialize game
-        self.createHands()
+        self.create_hands()
 
-    def getCard(self) -> tuple:
+    def get_card(self) -> tuple:
+        """
+        Get a card from the shuffled deck.
+
+        Shuffles the deck and returns a tuple representing a card. The card is removed
+        from the deck.
+
+        Parameters:
+        None
+
+        Returns:
+        tuple: A tuple representing a card, where the first element is the suit and the
+               second element is the card value.
+        """
+
         shuffle(self.DECK)
         return self.DECK.pop()
 
-    def updatePoints(self, value: "int or str", user: str) -> None:
-        if user == "p":
-            try:
-                self.player += self.POINTS[value]
-            except:
-                self.player += value
+    def update_points(self, value: "int or str", user: str) -> None:
+        """
+        Update the points for the specified user based on the given value.
+
+        If the value is a string, it is assumed to be a card identifier, and the corresponding
+        point value is retrieved from the POINTS dictionary. The points are then added to either
+        the player's or dealer's total based on the user parameter.
+
+        If the value is an integer, it is directly added to the points of the specified user.
+
+        Parameters:
+        - value ("int or str"): The value to update the points. If a string, it is treated as a card identifier.
+        - user (str): A string representing the user ('p' for player or 'd' for dealer).
+
+        Returns:
+        None
+        """
+
+        if isinstance(value, str):
+            value = self.POINTS[value]
+
+        if user.lower() == 'p':
+            self.player += value
         else:
-            try:
-                self.dealer += self.POINTS[value]
-            except:
-                self.dealer += value
+            self.dealer += value
 
-    def drewCard(self, deck: str, n: int = 1):
+    def drew_card(self, deck: str, n: int = 1):
+        """
+        Draw cards from the specified deck and update the player or dealer hands and points.
+
+        Parameters:
+        - deck (str): A string indicating the deck from which to draw cards. 'p' for player deck, 'd' for dealer deck.
+        - n (int, optional): The number of cards to draw. Default is 1.
+
+        Returns:
+        None
+        """
+
         for _ in range(n):
-            card = self.getCard()
 
+            card = self.get_card()
             if deck.lower() == "p":
                 self.player_hand.append(card)
-                self.updatePoints(card[-1], 'p')
+                self.update_points(card[-1], 'p')
 
             else:
                 self.dealer_hand.append(card)
-                self.updatePoints(card[-1], 'd')
+                self.update_points(card[-1], 'd')
 
-    def createHands(self) -> None:
+    def create_hands(self) -> None:
+        """
+        Initialize and create the initial hands for both the player and the dealer.
 
-        # Assign player random cards
-        self.drewCard("p", 2)
+        Draws two cards for the player and two cards for the dealer, updating their respective hands and points.
 
-        # Assign dealer random cards
-        self.drewCard("d", 2)
+        Parameters:
+        None
 
-    def showHand(self, deck: str, hideDealerHand: bool = False) -> None:
+        Returns:
+        None
+        """
+        self.drew_card("p", 2)
+        self.drew_card("d", 2)
+
+    def show_hand(self, deck: str, hide_dealer_hand: bool = False) -> None:
+        """
+        Display the cards in the specified deck (player or dealer) with a visual representation.
+
+        Parameters:
+        - deck (str): A string indicating the deck to display. 'p' for player deck, 'd' for dealer deck.
+        - hide_dealer_hand (bool, optional): Whether to hide the dealer's second card. Default is False.
+
+        Returns:
+        None
+        """
 
         if deck.lower() == "p":
             deck = self.player_hand.copy()
@@ -76,7 +141,7 @@ class Blackjack:
         second_side = "| {suit} |"
         third_side = "|__{value}|"
 
-        if hideDealerHand:
+        if hide_dealer_hand:
             deck[0] = ("#", "#")
 
         # Print the top row
@@ -101,129 +166,37 @@ class Blackjack:
         print()
         print()
 
-    def displayHands(self, hideDealerHand: bool = False):
+    def display_hands(self, hide_dealer_hand: bool = False):
+        """
+        Display the current hands of both the player and the dealer.
 
-        if hideDealerHand:
+        Parameters:
+        - hide_dealer_hand (bool, optional): Whether to hide the dealer's second card. Default is False.
+
+        Returns:
+        None
+        """
+
+        if hide_dealer_hand:
             print("\nDEALER: ???")
         else:
             print(f"\nDEALER: {self.dealer:2}")
 
-        self.showHand("d", hideDealerHand)
+        self.show_hand("d", hide_dealer_hand)
         print(f"PLAYER: {self.player:2}")
-        self.showHand(deck="p")
+        self.show_hand(deck="p")
         print()
 
-    def assignBet(self, bet: int):
+    def assign_bet(self, bet: int):
+        """
+        Assign a bet for the current round.
+
+        Parameters:
+        - bet (int): The amount of money to bet for the current round.
+
+        Returns:
+        None
+        """
+
         self.bet += bet
         self.money -= bet
-
-
-if __name__ == "__main__":
-    rules = """
-    Rules:
-        
-        1. Receive two cards at the start.
-        
-        2. Choose to "hit"(H) for an additional card or "stand"(S) to keep the current hand.
-        
-        3. Aim to achieve a hand value as close to 21 as possible without exceeding it.
-        
-        4. Aces can be worth 1 or 11 points, and face cards are worth 10 points.
-        
-        5. Win if the hand is closer to 21 than the dealer's hand without busting (exceeding 21).
-        
-        6. Blackjack, an Ace with a 10-value card, often results in a higher payout.
-        
-        7. Push (tie) if the player and dealer have the same hand value.
-        
-        8. Lose the bet if the hand exceeds 21 or if the dealer's hand is closer to 21.
-    """
-
-    # Introduce the player with the game
-    print(rules)
-
-    # Game Configs
-    game = Blackjack(money=5000)
-
-    # Start Game
-    while True:
-
-        # Exit the game
-        if game.money <= 0:
-            print("\tYou went BROKE!")
-            print("\tThanks for playing.")
-            quit()
-
-        # Take user bet
-        print(f"Money: {game.money}")
-        bet = input("How much do you bet?(1-5000 or QUIT)\n>").lower()
-
-        # Additional Functionalities
-        if bet == "QUIT".lower() or bet == "q":
-            break
-        elif bet == "r":
-            print(rules)
-            continue
-        else:
-            bet = int(bet)
-            game.assignBet(bet)
-
-        # Player's Turn
-        while True:
-
-            game.displayHands(True)
-
-            if game.player > 21:
-                break
-
-            # Play a move (Player)
-            move = input("(H)it, (S)tand, (D)ouble down\n>").lower()
-
-            if move == 'd':
-                game.assignBet(bet)
-                print(f"Bet increased to: {game.bet} Money Left: {game.money}")
-
-            if move in ('h', 'd'):
-                game.drewCard('p')
-
-                if game.player > 21:
-                    continue
-
-            if move in ('s', 'd'):
-                break
-
-        # Dealer's Turn
-        if game.player <= 21:
-            while game.dealer < 17:
-
-                print("\nDealer hits:")
-                game.drewCard("d")
-                game.displayHands(True)
-
-                if game.dealer > 21:
-                    break
-
-                input("Enter to continue...")
-                print("\n\n")
-
-        # Show final hands
-        game.displayHands(False)
-        
-
-        # Final Check
-        if game.dealer > 21:
-            print('Dealer busts! You win ${}!\n'.format(bet))
-            game = Blackjack(game.money + game.bet * 2)
-
-        elif (game.player > 21) or (game.player < game.dealer):
-            print('You lost!\n')
-            game = Blackjack(game.money)
-
-        elif game.player > game.dealer:
-            print('You won ${}!\n'.format(bet))
-            game = Blackjack(game.money + game.bet * 2)
-
-        elif game.player == game.dealer:
-            print('It\'s a tie, the bet is returned to you.\n')
-            game = Blackjack(game.money + game.bet)
-        
