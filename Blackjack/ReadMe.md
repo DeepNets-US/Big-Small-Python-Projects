@@ -1,3 +1,5 @@
+# **Blackjack**🃏
+
 Blackjack, also known as 21, is a popular card game played in casinos around the world. The game is straightforward and involves comparing card values between the player and the dealer. The primary objective is to have a hand value closer to 21 than the dealer's hand without exceeding 21.
 
 Here are the basic rules of Blackjack:
