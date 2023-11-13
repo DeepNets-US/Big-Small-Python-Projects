@@ -32,8 +32,7 @@ Here are the basic rules of Blackjack:
    - A "Blackjack" is a special hand consisting of an Ace and a 10-value card (10, Jack, Queen, or King) and is the highest possible hand.
    - A player with a Blackjack usually receives a higher payout, often 3:2.
 
-7. **Splitting and Doubling Down:**
-   - Players may have the option to "split" if they are dealt two cards of the same rank, creating two separate hands.
+7. **Doubling Down:**
    - Players may also have the option to "double down," doubling their initial bet in exchange for committing to stand after receiving one more card.
 
 These are the basic rules of Blackjack. Keep in mind that specific casino rules can vary, so it's always a good idea to familiarize yourself with the rules of the particular game you are playing.
