@@ -28,3 +28,5 @@ Because it found the laptop more 'portable'! 😄💻
 ## Final Showdown
 
 So, gear up for this wild ride and let the bouncing logo fiesta begin! A dash of fun, a splash of color – it's the console extravaganza you never knew you needed! 🌟🎈🎮
+
+![image](https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/faafda11-b621-45c4-abae-471e694446c7)
