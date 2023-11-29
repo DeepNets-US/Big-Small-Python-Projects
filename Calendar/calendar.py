@@ -28,13 +28,13 @@ def show_calendar(year, month):
 
     while True:
         for _ in range(2):
-            for _ in range(DAYS_IN_WEEK):
+            for i in range(DAYS_IN_WEEK):
                 print(CELL_FORMAT.format(day=" "), end="")
                 if i == DAYS_IN_WEEK - 1:
                     print("|", end="")
             print()
 
-        for _ in range(DAYS_IN_WEEK):
+        for i in range(DAYS_IN_WEEK):
             print(CELL_FORMAT.format(day=current_date.day), end="")
             if i == DAYS_IN_WEEK - 1:
                 print("|", end="")
@@ -42,7 +42,7 @@ def show_calendar(year, month):
         print()
 
         for _ in range(2):
-            for _ in range(DAYS_IN_WEEK):
+            for i in range(DAYS_IN_WEEK):
                 print(CELL_FORMAT.format(day=" "), end="")
                 if i == DAYS_IN_WEEK - 1:
                     print("|", end="")
