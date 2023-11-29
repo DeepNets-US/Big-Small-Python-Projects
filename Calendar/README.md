@@ -6,15 +6,15 @@ Welcome to the Calendar Maker Python program! This nifty tool generates a text-b
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/DeepNets-US/Big-Small-Python-Projects
    ```
 2. **Navigate to the Directory:**
    ```bash
-   cd repo
+   cd Calendar
    ```
 3. **Run the Program:**
    ```bash
-   python calendar_maker.py
+   python calendar.py
    ```
 4. **Enter Year and Month:**
    Follow the prompts to enter the desired year and month. The calendar will magically appear in your console!
@@ -36,3 +36,5 @@ The program showcases a textual representation of the calendar for the specified
 5. Open a pull request.
 
 ## Example
+
+https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/b8f95b1d-bbbd-4c7a-a8f2-6d4f47583d8d
