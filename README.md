@@ -65,7 +65,7 @@ Feel free to explore these web pages for enhanced experiences related to the pro
 To get started with these projects, clone this repository using the following command:
 
 ```bash
-git clone https://github.com/yourusername/Big-Small-Python-Projects.git
+gh repo clone DeepNets-US/Big-Small-Python-Projects
 ```
 
 Once cloned, navigate to the desired project directory and explore the files and readme for instructions on how to run the code and engage with the project.
