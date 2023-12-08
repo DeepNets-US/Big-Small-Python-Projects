@@ -114,7 +114,7 @@ dice and asks for your bet.""")
                     break
 
     def __repr__(self):
-        return f"Nums: {self.nums}"
+        return f"ChoHan(money:{self.money})"
 
 
 if __name__ == "__main__":
