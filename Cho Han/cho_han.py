@@ -93,6 +93,10 @@ class ChoHan:
             try:
                 user_bet = int(user_bet)
 
+                if (user_bet > self.money):
+                    print("Not Enough Money!!")
+                    break
+
                 self.assign_bet(user_bet)
 
                 print("""   
