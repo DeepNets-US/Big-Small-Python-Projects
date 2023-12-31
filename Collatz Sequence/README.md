@@ -1,4 +1,6 @@
-### The Mystique of Collatz Conjecture: A Mathematical Puzzle 🧩
+# The Mystique of Collatz Conjecture: A Mathematical Puzzle 🧩
+
+----
 
 #### Unraveling the Enigma 🌌
 
