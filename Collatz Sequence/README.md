@@ -1,7 +1,5 @@
 # The Mystique of Collatz Conjecture: A Mathematical Puzzle 🧩
 
-----
-
 #### Unraveling the Enigma 🌌
 
 The Collatz Conjecture, often dubbed the "3n + 1 problem," introduces an enigmatic sequence born from a simple set of rules. Picture this:
