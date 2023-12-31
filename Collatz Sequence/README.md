@@ -1,6 +1,6 @@
 # The Mystique of Collatz Conjecture: A Mathematical Puzzle 🧩
 
-#### Unraveling the Enigma 🌌
+## Unraveling the Enigma 🌌
 
 The Collatz Conjecture, often dubbed the "3n + 1 problem," introduces an enigmatic sequence born from a simple set of rules. Picture this:
 
@@ -10,7 +10,7 @@ The Collatz Conjecture, often dubbed the "3n + 1 problem," introduces an enigmat
 
 The mystique lies in the idea that no matter which number you start with, eventually, this sequence navigates its way back to the number 1. Intriguing, right? 🤔
 
-#### The Code at Play 💻
+## The Code at Play 💻
 
 This Python script invites you to step into the realm of this tantalizing conjecture by visualizing its journey. Here’s your guide:
 
@@ -18,7 +18,7 @@ This Python script invites you to step into the realm of this tantalizing conjec
 2. **Input Stage:** When prompted, unleash your chosen starting number (greater than 0). 🎲
 3. **Output Universe:** Witness the sequence unfold in a plot, showcasing its twists and turns. 📈
 
-#### Navigating the Code's Magic 🧙‍♂️
+## Navigating the Code's Magic 🧙‍♂️
 
 1. **Embark on the Journey:** Fetch the script from the repository or source. 📜
 2. **Environment Prep:** Ensure Python and Matplotlib are at your service. 🛠️
@@ -28,7 +28,7 @@ This Python script invites you to step into the realm of this tantalizing conjec
 6. **Numeric Riddle:** Cast your chosen integer into the script’s oracle and await its prophecy. 🕵️‍♂️
 7. **Visual Revelation:** Behold the plot, showcasing the mesmerizing dance of numbers. 🌟
 
-#### Intriguing Notes 📝
+## Intriguing Notes 📝
 
 - The secret lies in providing a positive integer to witness the sequence dance. ✨
 - Should mysteries arise, check your Python and Matplotlib installations. 🕵️‍♀️
