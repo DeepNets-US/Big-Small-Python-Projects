@@ -34,3 +34,8 @@ This Python script invites you to step into the realm of this tantalizing conjec
 - Should mysteries arise, check your Python and Matplotlib installations. 🕵️‍♀️
 
 Dare to plunge into the cryptic world of numbers! Experiment with diverse starting numbers and witness the dance of the Collatz Conjecture. 🎭
+
+
+![127](https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/b5268119-c11f-482e-8d69-74e0709d04f2)
+![745](https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/4724a82c-e1f5-40c5-9a6e-918f9a5791f3)
+![589](https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/bda977bb-2d00-4d3d-b7db-058d7a024cdc)
