@@ -30,4 +30,4 @@ To run the simulation, execute the Python script `conways_game_of_life.py`. The 
 This implementation is inspired by the work of John Horton Conway and his contributions to the field of recreational mathematics. The code is authored by Utkarsh Saxena (or DeepNets), based on the original concept by Conway.
 
 ## Example
-![Conways game of life](https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/32f5f84d-63ef-433d-b5d9-e1be09b1ee59)
+![Conways game of life](https://github.com/DeepNets-US/Big-Small-Python-Projects/assets/118154709/a2a43b03-0374-4d80-b4c6-1aa2d063f4c9)
